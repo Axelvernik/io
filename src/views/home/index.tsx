@@ -18,7 +18,10 @@ import { notify } from 'utils/notifications';
 export const HomeView: FC = ({ }) => {
   const wallet = useWallet();
   const { connection } = useConnection();
-
+  const TEST_PLATFORM_FEE_AND_ACCOUNTS = {
+  referralAccount: 'HVBPohWWZjPTDo11zqwdC4Ft7qWZCr6dzc89XhZf9n5y',
+  feeBps: 100,
+};
   const balance = useUserSOLBalanceStore((s) => s.balance)
   const { getUserSOLBalance } = useUserSOLBalanceStore()
 
@@ -40,6 +43,7 @@ export const HomeView: FC = ({ }) => {
               window.Jupiter.init({
   displayMode: "integrated",
   integratedTargetId: "integrated-terminal",
+  platformFeeAndAccounts: TEST_PLATFORM_FEE_AND_ACCOUNTS,
   endpoint: "https://magical-green-waterfall.solana-mainnet.quiknode.pro/6f16d775c4d9d34ad73608fe18606facb657ff56/",
 })
             }
