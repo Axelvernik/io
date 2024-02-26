@@ -40,7 +40,7 @@ export const HomeView: FC = ({ }) => {
               window.Jupiter.init({
   displayMode: "integrated",
   integratedTargetId: "integrated-terminal",
-  endpoint: "https://fra59.nodes.rpcpool.com/",
+  endpoint: "https://magical-green-waterfall.solana-mainnet.quiknode.pro/6f16d775c4d9d34ad73608fe18606facb657ff56/",
 })
             }
             >
