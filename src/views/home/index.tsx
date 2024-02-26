@@ -40,7 +40,7 @@ export const HomeView: FC = ({ }) => {
               window.Jupiter.init({
   displayMode: "integrated",
   integratedTargetId: "integrated-terminal",
-  endpoint: "https://api.mainnet-beta.solana.com",
+  endpoint: "fra59.nodes.rpcpool.com",
 })
             }
             >
