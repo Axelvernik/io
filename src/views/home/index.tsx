@@ -31,21 +31,7 @@ export const HomeView: FC = ({ }) => {
       getUserSOLBalance(wallet.publicKey, connection)
     }
   }, [wallet.publicKey, connection, getUserSOLBalance])
-  const passthroughWalletContextState = useWallet();
-
-  // To make sure passthrough wallet are synced
-  useEffect(() => {
-    if (!window.Jupiter.syncProps) return;
-    window.Jupiter.syncProps({ passthroughWalletContextState });
-  }, [passthroughWalletContextState.connected, props]);
-
-  window.Jupiter.init({
-   displayMode: "integrated",
-   integratedTargetId: "integrated-terminal",
-   enableWalletPassthrough: true,
-   platformFeeAndAccounts: TEST_PLATFORM_FEE_AND_ACCOUNTS,
-   endpoint: "https://magical-green-waterfall.solana-mainnet.quiknode.pro/6f16d775c4d9d34ad73608fe18606facb657ff56/",
- });
+  
   return (
 
     <div className="md:hero mx-auto p-4">
