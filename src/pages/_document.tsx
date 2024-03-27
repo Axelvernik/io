@@ -13,14 +13,6 @@ class MyDocument extends Document {
         <Head>
         <link rel="shortcut icon" href="/favicon.ico"/>
           <script src="https://terminal.jup.ag/main-v2.js" data-preload />
-          <script>
-          window.Jupiter.init({
-            displayMode: "integrated",
-            integratedTargetId: "integrated-terminal",
-            endpoint: "https://api.mainnet-beta.solana.com",
-            enableWalletPassthrough: true,
-          });
-          </script>
         </Head>
         <body>
           <Main />

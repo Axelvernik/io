@@ -31,7 +31,15 @@ export const HomeView: FC = ({ }) => {
       getUserSOLBalance(wallet.publicKey, connection)
     }
   }, [wallet.publicKey, connection, getUserSOLBalance])
-  
+  useEffect(() => {
+    window.Jupiter.init({
+      displayMode: "integrated",
+      integratedTargetId: "integrated-terminal",
+      endpoint: "https://api.mainnet-beta.solana.com",
+      enableWalletPassthrough: true,
+    });
+}, []);
+
   return (
 
     <div className="md:hero mx-auto p-4">
