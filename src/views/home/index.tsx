@@ -35,7 +35,7 @@ export const HomeView: FC = ({ }) => {
     window.Jupiter.init({
     displayMode: "integrated",
     integratedTargetId: "integrated-terminal",
-    
+
     platformFeeAndAccounts: TEST_PLATFORM_FEE_AND_ACCOUNTS,
     endpoint: "https://magical-green-waterfall.solana-mainnet.quiknode.pro/6f16d775c4d9d34ad73608fe18606facb657ff56/",
   });
@@ -43,7 +43,7 @@ export const HomeView: FC = ({ }) => {
 
   return (
 
-    <div className="md:hero mx-auto p-4">
+    <!--<div className="md:hero mx-auto p-4">
       <div className="md:hero-content flex flex-col">
         <div className='mt-6'>
           <div id="integrated-terminal">
@@ -84,6 +84,6 @@ export const HomeView: FC = ({ }) => {
           </h4>
         </div>
       </div>
-    </div>
+    </div>-->
   );
 };
