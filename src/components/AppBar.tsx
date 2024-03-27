@@ -40,16 +40,16 @@ export const AppBar: React.FC = () => {
         <div className="navbar-end">
           <div className="hidden md:inline-flex align-items-center justify-items gap-6">
           <NavElement
-            label="Home"
+            label="Swap"
             href="/"
             navigationStarts={() => setIsNavOpen(false)}
           />
           <NavElement
-            label="Basics"
-            href="/basics"
+            label="Leaderboard"
+            href="/leaderboard"
             navigationStarts={() => setIsNavOpen(false)}
           />
-          <WalletMultiButtonDynamic className="btn-ghost btn-sm rounded-btn text-lg mr-6 " />
+          <UnifiedWalletButton className="btn-ghost btn-sm rounded-btn text-lg mr-6 " />
         </div>
           <label
               htmlFor="my-drawer"
