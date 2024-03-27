@@ -33,11 +33,12 @@ export const HomeView: FC = ({ }) => {
   }, [wallet.publicKey, connection, getUserSOLBalance])
   useEffect(() => {
     window.Jupiter.init({
-      displayMode: "integrated",
-      integratedTargetId: "integrated-terminal",
-      endpoint: "https://api.mainnet-beta.solana.com",
-      enableWalletPassthrough: true,
-    });
+    displayMode: "integrated",
+    integratedTargetId: "integrated-terminal",
+    enableWalletPassthrough: true,
+    platformFeeAndAccounts: TEST_PLATFORM_FEE_AND_ACCOUNTS,
+    endpoint: "https://magical-green-waterfall.solana-mainnet.quiknode.pro/6f16d775c4d9d34ad73608fe18606facb657ff56/",
+  });
 }, []);
 
   return (
