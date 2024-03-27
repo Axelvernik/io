@@ -49,7 +49,7 @@ export const AppBar: React.FC = () => {
             href="/leaderboard"
             navigationStarts={() => setIsNavOpen(false)}
           />
-          <UnifiedWalletProvider className="btn-ghost btn-sm rounded-btn text-lg mr-6 " />
+          <WalletMultiButtonDynamic className="btn-ghost btn-sm rounded-btn text-lg mr-6 " />
         </div>
           <label
               htmlFor="my-drawer"
