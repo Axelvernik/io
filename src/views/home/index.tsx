@@ -59,12 +59,7 @@ export const HomeView: FC = ({ }) => {
         <h4 className="md:w-full text-2x1 md:text-4xl text-center text-slate-300 my-2">
 
         </h4>
-        <div className="relative group">
-          <div className="absolute -inset-0.5 bg-gradient-to-r from-indigo-500 to-indigo-500 rounded-lg blur opacity-40 animate-tilt"></div>
-          <div className="max-w-md mx-auto mockup-code bg-primary border-2 border-[#5252529f] p-6 px-10 my-2">
-            
-          </div>
-        </div>
+        
 
       </div>
     </div>
