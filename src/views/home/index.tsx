@@ -31,6 +31,15 @@ export const HomeView: FC = ({ }) => {
       getUserSOLBalance(wallet.publicKey, connection)
     }
   }, [wallet.publicKey, connection, getUserSOLBalance])
+  import { useWallet } from "@solana/wallet-adapter-react"; // Or @jup-ag/wallet-adapter;
+  const passthroughWalletContextState = useWallet();
+
+  // To make sure passthrough wallet are synced
+  useEffect(() => {
+    if (!window.Jupiter.syncProps) return;
+    window.Jupiter.syncProps({ passthroughWalletContextState });
+  }, [passthroughWalletContextState.connected, props]);
+
   window.Jupiter.init({
    displayMode: "integrated",
    integratedTargetId: "integrated-terminal",
