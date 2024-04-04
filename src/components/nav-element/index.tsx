@@ -33,7 +33,7 @@ const NavElement = ({
                 'h-0.5 w-1/4 transition-all duration-300 ease-out',
                 isActive
                     ? '!w-full gan '
-                    : 'group-hover:w-1/2 gan',
+                    : 'group-hover:w-1/2 gan2',
             );
         }
     }, [isActive]);
