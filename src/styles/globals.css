@@ -24,3 +24,6 @@ a {
 .wallet-adapter-button:not([disabled]):hover {
   background-color: #707070;
 }
+.gan{
+  color: #a68e72;
+}
