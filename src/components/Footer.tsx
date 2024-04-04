@@ -59,7 +59,7 @@ export const Footer: FC = () => {
                             </div>
                         </div>
 
-                        <div className="mb-6 items-center mx-auto max-w-screen-lg">
+                        <div className="mb-9 items-center mx-auto max-w-screen-lg">
                             <div className="font-normal capitalize mb-2.5">SOLANA</div>
 
                             <div className="flex flex-col mb-0 gap-2">
@@ -81,7 +81,7 @@ export const Footer: FC = () => {
                             </div>
                         </div>
 
-                        <div className="mb-6 items-center mx-auto max-w-screen-lg">
+                        <div className="mb-9 items-center mx-auto max-w-screen-lg">
                             <h5 className="font-normal capitalize tracking-tight  mb-2.5">DEVELOPERS</h5>
 
                             <div className="flex flex-col mb-0 gap-2">
@@ -103,27 +103,7 @@ export const Footer: FC = () => {
                             </div>
                         </div>
 
-                        <div className="mb-6 items-center mx-auto max-w-screen-lg">
-                            <h5 className="font-normal tracking-tight  mb-2.5">ECOSYSTEM</h5>
-
-                            <div className="flex flex-col mb-0 gap-2">
-                                <Link href="https://solana.com/news" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
-                                    News
-                                </Link>
-                                <Link href="https://solana.org/validators" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
-                                    Validators
-                                </Link>
-                                <Link href="https://www.youtube.com/@SolanaFndn" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
-                                    Youtube
-                                </Link>
-                                <Link href="https://app.realms.today/discover" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
-                                    Realms
-                                </Link>
-                                <Link href="https://www.solanau.org" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
-                                    Solana U
-                                </Link>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </footer>
