@@ -61,7 +61,7 @@ export const Footer: FC = () => {
 
                         <div className="mb-9 items-center mx-auto max-w-screen-lg">
 
-                            <h3>Jupiter Moons</h3>
+                            <h2>Jupiter Moons</h2>
 
                         </div>
 

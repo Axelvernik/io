@@ -52,6 +52,10 @@ h3{
   font-size: 15px;
 margin-bottom: 25px;
 }
+h2{
+  font-size: 20px;
+margin-bottom: 25px;
+}
 .py-12 {
     padding-bottom: 1rem !important;
 }
