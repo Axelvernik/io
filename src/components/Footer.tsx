@@ -61,6 +61,7 @@ export const Footer: FC = () => {
 
                         <div className="mb-9 items-center mx-auto max-w-screen-lg">
                             <div className="font-normal capitalize mb-2.5">Jupiter Moons</div>
+                            <h3>Jupiter Moons</h3>
 
                             <div className='flex flex-row ml-1'>
                                 <Link href="https://5th-ganymede.io" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
