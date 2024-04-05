@@ -10,6 +10,10 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 
 }
+#__next{
+  background-image: url(bg.jpg);
+  background-size: cover;
+}
 
 a {
   color: inherit;
