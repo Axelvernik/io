@@ -60,7 +60,7 @@ export const Footer: FC = () => {
                         </div>
 
                         <div className="mb-9 items-center mx-auto max-w-screen-lg">
-                            <div className="font-normal capitalize mb-2.5">SOLANA</div>
+                            <div className="font-normal capitalize mb-2.5">Jupiter Moons</div>
 
                             <div className='flex flex-row ml-1'>
                                 <Link href="https://5th-ganymede.io" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
@@ -68,7 +68,7 @@ export const Footer: FC = () => {
                                         <Image
                                             src="/logo.png"
                                             alt="ganymede icon"
-                                            width={156}
+                                            width={176}
                                             height={96}
                                         />
                                     </div>
