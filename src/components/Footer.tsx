@@ -74,37 +74,40 @@ export const Footer: FC = () => {
                                         />
                                     </div>
                                 </Link>
-                            
+
                             </div>
                             <div className='flex flex-row ml-1'>
 
-                              <Link href="https://5th-callisto.io" target="_blank" rel="noopener noreferrer" > <div className='flex flex-row ml-1'> <h5>https://5th-callisto.io</h5>
+                              <Link href="https://5th-callisto.io" target="_blank" rel="noopener noreferrer" > <div className='flex flex-row ml-1'> <h5>5th-callisto.io</h5>
+                              </div>
+                                </Link>
+                            </div>
+                        </div>
+                        <div className="mb-9 items-center mx-auto max-w-screen-lg">
+
+                            <h3>Jupiter Moons</h3>
+
+                            <div className='flex flex-row ml-1'>
+                                <Link href="https://5th-ganymede.io" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
+                                    <div className='flex flex-row ml-1'>
+                                        <Image
+                                            src="/logo.png"
+                                            alt="ganymede icon"
+                                            width={176}
+                                            height={96}
+                                        />
+                                    </div>
+                                </Link>
+
+                            </div>
+                            <div className='flex flex-row ml-1'>
+
+                              <Link href="https://5th-callisto.io" target="_blank" rel="noopener noreferrer" > <div className='flex flex-row ml-1'> <h5>5th-callisto.io</h5>
                               </div>
                                 </Link>
                             </div>
                         </div>
 
-                        <div className="mb-9 items-center mx-auto max-w-screen-lg">
-                            <h5 className="font-normal capitalize tracking-tight  mb-2.5">DEVELOPERS</h5>
-
-                            <div className="flex flex-col mb-0 gap-2">
-                                <Link href="https://docs.solana.com/developers" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
-                                    Documentation
-                                </Link>
-                                <Link href="https://github.com/solana-mobile/solana-mobile-stack-sdk" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
-                                    Mobile SDK
-                                </Link>
-                                <Link href="https://github.com/solana-labs/solana-pay" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
-                                    Pay SDK
-                                </Link>
-                                <Link href="https://solanacookbook.com/" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
-                                    Cookbook
-                                </Link>
-                                <Link href="https://solana.com/developers/dao" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
-                                    DAOs
-                                </Link>
-                            </div>
-                        </div>
 
 
                     </div>
