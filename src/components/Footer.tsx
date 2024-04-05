@@ -64,10 +64,10 @@ export const Footer: FC = () => {
                             <h3>Jupiter Moons</h3>
 
                             <div className='flex flex-row ml-1'>
-                                <Link href="https://5th-ganymede.io" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
+                                <Link href="https://5th-callisto.io" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
                                     <div className='flex flex-row ml-1'>
                                         <Image
-                                            src="/logo.png"
+                                            src="/logoc.png"
                                             alt="ganymede icon"
                                             width={176}
                                             height={96}
@@ -85,13 +85,13 @@ export const Footer: FC = () => {
                         </div>
                         <div className="mb-9 items-center mx-auto max-w-screen-lg">
 
-                            <h3>Jupiter Moons</h3>
+
 
                             <div className='flex flex-row ml-1'>
-                                <Link href="https://5th-ganymede.io" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
+                                <Link href="https://5th-io.io" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
                                     <div className='flex flex-row ml-1'>
                                         <Image
-                                            src="/logo.png"
+                                            src="/logoi.png"
                                             alt="ganymede icon"
                                             width={176}
                                             height={96}
@@ -102,7 +102,7 @@ export const Footer: FC = () => {
                             </div>
                             <div className='flex flex-row ml-1'>
 
-                              <Link href="https://5th-callisto.io" target="_blank" rel="noopener noreferrer" > <div className='flex flex-row ml-1'> <h5>5th-callisto.io</h5>
+                              <Link href="https://5th-io.io" target="_blank" rel="noopener noreferrer" > <div className='flex flex-row ml-1'> <h5>5th-io.io</h5>
                               </div>
                                 </Link>
                             </div>
