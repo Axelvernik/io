@@ -65,7 +65,7 @@ export const Footer: FC = () => {
 
                         </div>
 
-                        <div className="mb-9 items-center mx-auto max-w-screen-lg" style="margin-left:0;">
+                        <div className="mb-9 items-center mx-auto max-w-screen-lg plan">
 
 
                             <div className='flex flex-row ml-1'>
@@ -89,7 +89,7 @@ export const Footer: FC = () => {
                             </div>
                         </div>
 
-                        <div className="mb-9 items-center mx-auto max-w-screen-lg" style="margin-left:0;">
+                        <div className="mb-9 items-center mx-auto max-w-screen-lg plan">
                             <div className='flex flex-row ml-1'>
                                 <Link href="https://5th-io.io" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
                                     <div className='flex flex-row ml-1'>
