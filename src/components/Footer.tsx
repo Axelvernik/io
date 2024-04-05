@@ -63,6 +63,11 @@ export const Footer: FC = () => {
 
                             <h3>Jupiter Moons</h3>
 
+                        </div>
+                        
+                        <div className="mb-9 items-center mx-auto max-w-screen-lg">
+
+
                             <div className='flex flex-row ml-1'>
                                 <Link href="https://5th-callisto.io" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
                                     <div className='flex flex-row ml-1'>
@@ -83,10 +88,8 @@ export const Footer: FC = () => {
                                 </Link>
                             </div>
                         </div>
+
                         <div className="mb-9 items-center mx-auto max-w-screen-lg">
-
-
-
                             <div className='flex flex-row ml-1'>
                                 <Link href="https://5th-io.io" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
                                     <div className='flex flex-row ml-1'>
