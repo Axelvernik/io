@@ -46,12 +46,13 @@ export const HomeView: FC = ({ }) => {
     <div className="md:hero mx-auto p-4">
       <div className="md:hero-content flex flex-col">
         <div className='mt-6'>
+        <h1>Ganymede Swap</h1>
           <div id="integrated-terminal">
 
 
           </div>
 
-        
+
         <h1 className="text-center text-5xl md:pl-12 font-bold text-transparent bg-clip-text bg-gradient-to-br from-indigo-500 to-fuchsia-500 mb-4">
 
         </h1>
