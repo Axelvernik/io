@@ -21,7 +21,7 @@ export const Footer: FC = () => {
                                 </Link>
                             </div>
                             <div className="flex md:ml-2">
-                                <a href="https://twitter.com/solana_devs" type="button" className="border-white text-secondary hover:text-white leading-normal hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+                                <a href="https://x.com/ganymede_5th" type="button" className="border-white text-secondary hover:text-white leading-normal hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
                                     <svg aria-hidden="true"
                                         focusable="false"
                                         data-prefix="fab"
@@ -60,7 +60,7 @@ export const Footer: FC = () => {
                         </div>
 
                         <div className="mb-9 items-center mx-auto max-w-screen-lg">
-                            <div className="font-normal capitalize mb-2.5">Jupiter Moons</div>
+
                             <h3>Jupiter Moons</h3>
 
                             <div className='flex flex-row ml-1'>
@@ -73,6 +73,8 @@ export const Footer: FC = () => {
                                             height={96}
                                         />
                                     </div>
+                                </Link>
+                              <Link href="https://5th-callisto.io" target="_blank" rel="noopener noreferrer" >  <h5>https://5th-callisto.io</h5>
                                 </Link>
                             </div>
                         </div>
