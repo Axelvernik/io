@@ -64,7 +64,7 @@ export const Footer: FC = () => {
                             <h3>Jupiter Moons</h3>
 
                         </div>
-                        
+
                         <div className="mb-9 items-center mx-auto max-w-screen-lg">
 
 
@@ -73,7 +73,7 @@ export const Footer: FC = () => {
                                     <div className='flex flex-row ml-1'>
                                         <Image
                                             src="/logoc.png"
-                                            alt="ganymede icon"
+                                            alt="callisto icon"
                                             width={176}
                                             height={96}
                                         />
@@ -95,7 +95,7 @@ export const Footer: FC = () => {
                                     <div className='flex flex-row ml-1'>
                                         <Image
                                             src="/logoi.png"
-                                            alt="ganymede icon"
+                                            alt="io icon"
                                             width={176}
                                             height={96}
                                         />
