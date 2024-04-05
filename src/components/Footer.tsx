@@ -74,7 +74,12 @@ export const Footer: FC = () => {
                                         />
                                     </div>
                                 </Link>
-                              <Link href="https://5th-callisto.io" target="_blank" rel="noopener noreferrer" >  <h5>https://5th-callisto.io</h5>
+                            
+                            </div>
+                            <div className='flex flex-row ml-1'>
+
+                              <Link href="https://5th-callisto.io" target="_blank" rel="noopener noreferrer" > <div className='flex flex-row ml-1'> <h5>https://5th-callisto.io</h5>
+                              </div>
                                 </Link>
                             </div>
                         </div>
