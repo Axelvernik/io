@@ -9,11 +9,11 @@ export const Footer: FC = () => {
                     <div className="grid grid-cols-2 md:grid-cols-6 gap-2 md:gap-8 md:space-x-12 relative">
                         <div className='flex flex-col col-span-2 mx-4 items-center md:items-start'>
                             <div className='flex flex-row ml-1'>
-                                <Link href="https://solana.com" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
+                                <Link href="https://5th-ganymede.io" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
                                     <div className='flex flex-row ml-1'>
                                         <Image
                                             src="/logo.png"
-                                            alt="solana icon"
+                                            alt="ganymede icon"
                                             width={156}
                                             height={96}
                                         />
@@ -62,21 +62,16 @@ export const Footer: FC = () => {
                         <div className="mb-9 items-center mx-auto max-w-screen-lg">
                             <div className="font-normal capitalize mb-2.5">SOLANA</div>
 
-                            <div className="flex flex-col mb-0 gap-2">
-                                <Link href="https://solana.com" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
-                                    Labs
-                                </Link>
-                                <Link href="https://solana.org" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
-                                    Foundation
-                                </Link>
-                                <Link href="https://solanamobile.com/" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
-                                    Solana Mobile
-                                </Link>
-                                <Link href="https://solanapay.com/" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
-                                    Solana Pay
-                                </Link>
-                                <Link href="https://solana.org/grants" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
-                                    Grants
+                            <div className='flex flex-row ml-1'>
+                                <Link href="https://5th-ganymede.io" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
+                                    <div className='flex flex-row ml-1'>
+                                        <Image
+                                            src="/logo.png"
+                                            alt="ganymede icon"
+                                            width={156}
+                                            height={96}
+                                        />
+                                    </div>
                                 </Link>
                             </div>
                         </div>
@@ -103,7 +98,7 @@ export const Footer: FC = () => {
                             </div>
                         </div>
 
-                        
+
                     </div>
                 </div>
             </footer>
