@@ -13,7 +13,7 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
     return (
         <>
           <Head>
-            <title>Ganymede on SOL</title>
+            <title>IO on SOL</title>
           </Head>
 
           <ContextProvider>
