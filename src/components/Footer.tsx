@@ -105,7 +105,7 @@ export const Footer: FC = () => {
                             </div>
                             <div className='flex flex-row ml-1 site'>
 
-                              <Link href="https://5th-ganymede.io" target="_blank" rel="noopener noreferrer" > <div className='flex flex-row ml-1'> <h5>https://5th-io.io</h5>
+                              <Link href="https://5th-ganymede.io" target="_blank" rel="noopener noreferrer" > <div className='flex flex-row ml-1'> <h5>https://5th-ganymede.io</h5>
                               </div>
                                 </Link>
                             </div>
